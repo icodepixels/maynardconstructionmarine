@@ -51,7 +51,7 @@ const imgs = Array.from({ length: 28 }, (_, i) => i + 1);
             </div>
 
             <section class="second-section">
-                <h3 class="" style="color: #212427; font-style: normal; font-weight: 700; margin-bottom: 16px">Custom Cabinet Refacing</h3>
+                <h3 class="" style="color: #212427; font-style: normal; font-weight: 700; margin-bottom: 16px">Custom Cabinets</h3>
                 The kitchen is the heart of the home. Love is brewed here, and families gather to share meals and laughs. There is nothing more
                 uncomfortable than a crowded kitchen. At Maynard Construction & Marine, we know how important a well functioning kitchen is to your
                 family and how a perfectly executed kitchen design can make the entire home more comfortable and appealing. Maynard Construction &
