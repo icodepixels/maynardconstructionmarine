@@ -1,0 +1,74 @@
+@import './base.css';
+
+.main{
+  margin: auto;
+  width: 100vw;
+}
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+  width: fit-content;
+  overflow: hidden;
+}
+
+a,
+.blue {
+  text-decoration: none;
+  color: #0163c8;
+  transition: 0.4s;
+}
+.gray{
+  color: #434547;
+}
+
+.btn {
+  background-color: #0163c8;
+  padding: 8px 16px;
+  color: #fff;
+  border: #0163c8 solid 1px;
+  border-radius: 25px;
+  box-shadow: 0px 1px 3px gray;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0px 3px 5px gray;
+  background-color: #c80163;
+  transition: background-color ease .3;
+}
+.link:hover {
+  cursor: pointer;
+}
+.text-md {
+  font-size: 1.4rem
+}
+.text-lg {
+  font-size: 2rem
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+.shadow {
+  box-shadow: 0px 3px 5px gray;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(0, 0%, 89%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+}
