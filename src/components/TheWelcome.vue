@@ -5,7 +5,7 @@ const imgs = Array.from({ length: 28 }, (_, i) => i + 1);
 <template>
     <div class="container">
         <div class="content">
-            <div class="catch-container"><h2 class="action-words" style="">GIVE YOUR HOME A CABINET MAKE OVER</h2></div>
+            <div class="catch-container"><h2 class="action-words" style="">GIVE YOUR HOME A CABINET MAKEOVER</h2></div>
 
             <div class="text-left">
                 <section>
