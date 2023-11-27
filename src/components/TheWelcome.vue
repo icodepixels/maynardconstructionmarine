@@ -34,7 +34,7 @@ const imgs = Array.from({ length: 28 }, (_, i) => i + 1);
 
                         <div class="check-marks-container">
                             <div class="check-mark" />
-                            UV Lightspeed Instant Cabinet Curing
+                            Custom & Refacing Cabinets
                         </div>
 
                         <div class="check-marks-container">
