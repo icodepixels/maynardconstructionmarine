@@ -5,10 +5,6 @@ defineProps({
         required: true,
     },
 });
-
-const redirectToEstimateForm = () => {
-    console.log("redirect");
-};
 </script>
 
 <template>
@@ -24,7 +20,7 @@ const redirectToEstimateForm = () => {
             <address>
                 Jeremy Maynard
                 <span>Custom & Refacing Cabinets</span>
-                2322 Wallace Cir. Gulf Shores, Al 36542
+                2322 Wallace Cir. Foley, Al 36542
             </address>
         </div>
     </div>
