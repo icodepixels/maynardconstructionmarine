@@ -73,15 +73,15 @@ const imgs = Array.from({ length: 28 }, (_, i) => i + 1);
                 <p>Call today and get design inspiration and custom solutions to spice up your kitchen or bathroom.</p>
             </div>
             <div class="transparent-box inspiration-title">
-                <img alt="Maynard Construction & Marine" class="category-img" :src="`../../src/assets/images/kitchen.png`" />
+                <img alt="Maynard Construction & Marine" class="category-img" :src="`../../src/images/kitchen.png`" />
                 <h4>KITCHEN REMODELING</h4>
             </div>
             <div class="transparent-box inspiration-title">
-                <img alt="Maynard Construction & Marine" class="category-img inspiration-title-2" :src="`../../src/assets/images/bathroom.png`" />
+                <img alt="Maynard Construction & Marine" class="category-img inspiration-title-2" :src="`../../src/images/bathroom.png`" />
                 <h4>BATHROOM REMODELING</h4>
             </div>
             <div class="transparent-box inspiration-title">
-                <img alt="Maynard Construction & Marine" class="category-img inspiration-title-3" :src="`../../src/assets/images/cabinet.png`" />
+                <img alt="Maynard Construction & Marine" class="category-img inspiration-title-3" :src="`../../src/images/cabinet.png`" />
                 <h4>CUSTOM CABINETS</h4>
             </div>
         </div>
@@ -89,7 +89,7 @@ const imgs = Array.from({ length: 28 }, (_, i) => i + 1);
     <section class="images">
         <div class="grid-container">
             <div class="img-container grid-item" v-for="(i, index) in imgs" :key="index">
-                <img alt="Maynard Construction & Marine" class="demos" :src="`../../src/assets/images/${i}.jpg`" />
+                <img alt="Maynard Construction & Marine" class="demos" :src="`../../src/images/${i}.jpg`" />
             </div>
         </div>
     </section>
@@ -122,7 +122,7 @@ const imgs = Array.from({ length: 28 }, (_, i) => i + 1);
     margin-top: 48px;
 }
 .check-mark {
-    background-image: url("../../src/assets/images/checkmark.svg");
+    background-image: url("../../src/images/checkmark.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
@@ -273,7 +273,7 @@ section {
     width: 372px;
 }
 .banner {
-    background-image: url("../../src/assets/images/403825338_1359148251375549_6698411373369828669_n.jpg");
+    background-image: url("../../src/images/403825338_1359148251375549_6698411373369828669_n.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;

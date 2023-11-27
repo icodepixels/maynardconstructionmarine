@@ -20,7 +20,7 @@ const redirectToEstimateForm = () => {
                     <h2 class="blue text-sm phone"><span class="">Call Today</span> (251) 284-2500</h2>
                 </a>
             </div>
-            <img alt="Maynard Construction & Marine" class="jermey-maynard" src="../../src/assets/images/jeremy_maynard.jpg" width="150" />
+            <img alt="Maynard Construction & Marine" class="jermey-maynard" src="../../src/images/jeremy_maynard.jpg" width="150" />
             <address>
                 Jeremy Maynard
                 <span>Custom & Refacing Cabinets</span>
