@@ -16,11 +16,11 @@ const redirectToEstimateForm = () => {
         <div class="catch-container">
             <h2 class="action-words" style="">WE PROUDLY SERVE THE ENTIRE GULF SHORES AREA AND NEARBY COMMUNITIES</h2>
             <div class="areas">
-                <a href="tel:+496170961709" class="link">
+                <a href="tel:+12512842500" class="link">
                     <h2 class="blue text-sm phone"><span class="">Call Today</span> (251) 284-2500</h2>
                 </a>
             </div>
-            <img alt="Maynard Construction & Marine" class="jermey-maynard" src="../../src/images/jeremy_maynard.jpg" width="150" />
+            <img alt="Maynard Construction & Marine" class="jermey-maynard" src="/images/jeremy_maynard.jpg" width="150" />
             <address>
                 Jeremy Maynard
                 <span>Custom & Refacing Cabinets</span>

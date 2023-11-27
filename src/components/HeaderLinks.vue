@@ -8,9 +8,9 @@ defineProps({
 </script>
 
 <template>
-    <a href="tel:+496170961709" class="btn">Schedule an Estimate</a>
+    <a href="tel:+12512842500" class="btn">Schedule an Estimate</a>
     <img alt="Maynard Construction & Marine" class="logo" src="../../src/assets/logo.svg" width="150" />
-    <a href="tel:+496170961709" class="link">
+    <a href="tel:+12512842500" class="link">
         <h2 class="blue text-md phone"><span class="gray">Call Now</span> (251) 284-2500</h2>
     </a>
 </template>
