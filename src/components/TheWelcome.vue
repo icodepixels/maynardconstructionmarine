@@ -47,7 +47,7 @@ const waterfront_imgs = Array.from({ length: 10 }, (_, i) => i + 1);
             </div>
             <div class="banner-container">
                 <div class="banner">
-                    <h3 class="banner-img">Custom Wood Cabinets in Gulf Shores, AL</h3>
+                    <h3 class="banner-img">Custom Wood Cabinets</h3>
                 </div>
             </div>
 
