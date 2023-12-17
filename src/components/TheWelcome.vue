@@ -1,5 +1,6 @@
 <script setup>
 const imgs = Array.from({ length: 28 }, (_, i) => i + 1);
+const waterfront_imgs = Array.from({ length: 10 }, (_, i) => i + 1);
 </script>
 
 <template>
@@ -93,6 +94,62 @@ const imgs = Array.from({ length: 28 }, (_, i) => i + 1);
             </div>
         </div>
     </section>
+
+    <div class="container marine-section">
+        <div class="banner-container">
+                <div class="dock-banner">
+                    <h3 class="banner-img">DOCKS, DECKS, LIFTS & BOARDWALKS</h3>
+                </div>
+            </div>
+        <div class="content">
+            <section class="second-section">
+                <h2 class="action-words" style="text-align: left; margin-bottom: 16px">Marine Construction</h2>
+                <p>
+                    At Maynard Construction & Marine, we are continually striving to improve our marine construction business. We guarantee
+                    satisfaction in everything we do because we are confident that our work exceeds our customer's expectations.
+                </p>
+            </section>
+            <section class="second-section">
+                <h3 class="" style="color: #212427; font-style: normal; font-weight: 700; margin-bottom: 16px">Docks</h3>
+                <p>
+                    A custom boat dock provides direct access to the water and to your boat. It is also a great place to spend time fishing or to
+                    watch the sunset. Whether you seek peace or recreation, a boat dock can bridge the gap between the backyard and the waterways of
+                    the Gulf Shores area.
+                </p>
+            </section>
+            <section class="second-section">
+                <h3 class="" style="color: #212427; font-style: normal; font-weight: 700; margin-bottom: 16px">Decks</h3>
+                <p>
+                    A custom boat deck increases your living space, provides a beautiful place to host dinner parties, and acts as a play area for the
+                    kids. Just imagine all of the new memories you can create in your new elevated space. With a deck by Maynard Construction &
+                    Marine, you can do just that.
+                </p>
+            </section>
+            <section class="second-section">
+                <h3 class="" style="color: #212427; font-style: normal; font-weight: 700; margin-bottom: 16px">Boardwalks</h3>
+                <p>
+                    Does your property have areas of natural underbrush that want to preserve. A boardwalk might be the answer. boardwalks are
+                    elevated above the natural aspects of your land allowing you and your family to explore nature without leaving behind a single
+                    foot print.
+                </p>
+            </section>
+            <section class="second-section">
+                <h3 class="" style="color: #212427; font-style: normal; font-weight: 700; margin-bottom: 16px">Boat Lifts</h3>
+                <p>
+                    We sell and install boat lifts and the piling that support the boat lifts. We can also mount your boat lift to existing piling. We
+                    will determine the most suitable location for your boat lift based on the type of boat that you own, the characteristics of the
+                    nearby waterways, and your budget.
+                </p>
+            </section>
+        </div>
+        <section class="images">
+            <div class="grid-container dock-grid-container">
+                <div class="img-container grid-item" v-for="(i, index) in waterfront_imgs" :key="index">
+                    <img alt="Maynard Construction & Marine" class="demos" :src="`/images/waterfront-${i}.jpg`" />
+                </div>
+            </div>
+        </section>
+    </div>
 </template>
 
 <style scoped>
@@ -111,6 +168,9 @@ const imgs = Array.from({ length: 28 }, (_, i) => i + 1);
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     max-width: 900px;
+}
+.dock-grid-container {
+    grid-template-rows: repeat(3, 1fr);
 }
 .banner-container {
     border-radius: 8px;
@@ -286,6 +346,23 @@ section {
     justify-content: center;
     position: relative;
 }
+.dock-banner {
+    background-image: url("/images/89601779_651624472262069_6726505813076082688_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border: 1px solid #eee;
+    height: 320px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.marine-section {
+    margin-top: 200px;
+}
 @media (max-width: 1080px) {
     .gray-box {
         margin-bottom: 16px;
@@ -301,9 +378,9 @@ section {
     }
 }
 @media (max-width: 767px) {
-  .banner-img {
-    font-size: 1rem;
-  }
+    .banner-img {
+        font-size: 1rem;
+    }
     .grid-container {
         padding-left: 0;
     }
