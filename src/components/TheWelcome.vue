@@ -46,13 +46,13 @@ const waterfront_imgs = Array.from({ length: 10 }, (_, i) => i + 1);
                 </section>
             </div>
             <div class="banner-container">
-                <div class="banner">
+                <div class="banner cabinet-banner">
                     <h3 class="banner-img">Custom Wood Cabinets</h3>
                 </div>
             </div>
 
             <section class="second-section">
-                <h3 class="" style="color: #212427; font-style: normal; font-weight: 700; margin-bottom: 16px">Custom Cabinets</h3>
+                <h3 class="banner-image-text">Custom Cabinets</h3>
                 The kitchen is the heart of the home. Love is brewed here, and families gather to share meals and laughs. There is nothing more
                 uncomfortable than a crowded kitchen. At Maynard Construction & Marine, we know how important a well functioning kitchen is to your
                 family and how a perfectly executed kitchen design can make the entire home more comfortable and appealing. Maynard Construction &
@@ -60,7 +60,7 @@ const waterfront_imgs = Array.from({ length: 10 }, (_, i) => i + 1);
                 perfectly fit all of your custom kitchen needs.
             </section>
             <section class="second-section">
-                <h3 class="" style="color: #212427; font-style: normal; font-weight: 700; margin-bottom: 16px">Cabinet Refacing</h3>
+                <h3 class="banner-image-text">Cabinet Refacing</h3>
                 Are you tired of looking at your outdated kitchen cabinets? It's time to breathe new life into your kitchen with professional cabinet
                 refacing. Cabinet refacing is a cost-effective and efficient way to transform the look and feel of your kitchen without the hassle of
                 a full renovation.
@@ -97,10 +97,10 @@ const waterfront_imgs = Array.from({ length: 10 }, (_, i) => i + 1);
 
     <div class="container marine-section">
         <div class="banner-container">
-                <div class="dock-banner">
-                    <h3 class="banner-img">DOCKS, DECKS, LIFTS & BOARDWALKS</h3>
-                </div>
+            <div class="dock-banner banner">
+                <h3 class="banner-img">DOCKS, DECKS, LIFTS & BOARDWALKS</h3>
             </div>
+        </div>
         <div class="content">
             <section class="second-section">
                 <h2 class="action-words" style="text-align: left; margin-bottom: 16px">Marine Construction</h2>
@@ -110,7 +110,7 @@ const waterfront_imgs = Array.from({ length: 10 }, (_, i) => i + 1);
                 </p>
             </section>
             <section class="second-section">
-                <h3 class="" style="color: #212427; font-style: normal; font-weight: 700; margin-bottom: 16px">Docks</h3>
+                <h3 class="banner-image-text">Docks</h3>
                 <p>
                     A custom boat dock provides direct access to the water and to your boat. It is also a great place to spend time fishing or to
                     watch the sunset. Whether you seek peace or recreation, a boat dock can bridge the gap between the backyard and the waterways of
@@ -118,7 +118,7 @@ const waterfront_imgs = Array.from({ length: 10 }, (_, i) => i + 1);
                 </p>
             </section>
             <section class="second-section">
-                <h3 class="" style="color: #212427; font-style: normal; font-weight: 700; margin-bottom: 16px">Decks</h3>
+                <h3 class="banner-image-text">Decks</h3>
                 <p>
                     A custom boat deck increases your living space, provides a beautiful place to host dinner parties, and acts as a play area for the
                     kids. Just imagine all of the new memories you can create in your new elevated space. With a deck by Maynard Construction &
@@ -126,7 +126,7 @@ const waterfront_imgs = Array.from({ length: 10 }, (_, i) => i + 1);
                 </p>
             </section>
             <section class="second-section">
-                <h3 class="" style="color: #212427; font-style: normal; font-weight: 700; margin-bottom: 16px">Boardwalks</h3>
+                <h3 class="banner-image-text">Boardwalks</h3>
                 <p>
                     Does your property have areas of natural underbrush that want to preserve. A boardwalk might be the answer. boardwalks are
                     elevated above the natural aspects of your land allowing you and your family to explore nature without leaving behind a single
@@ -134,7 +134,7 @@ const waterfront_imgs = Array.from({ length: 10 }, (_, i) => i + 1);
                 </p>
             </section>
             <section class="second-section">
-                <h3 class="" style="color: #212427; font-style: normal; font-weight: 700; margin-bottom: 16px">Boat Lifts</h3>
+                <h3 class="banner-image-text">Boat Lifts</h3>
                 <p>
                     We sell and install boat lifts and the piling that support the boat lifts. We can also mount your boat lift to existing piling. We
                     will determine the most suitable location for your boat lift based on the type of boat that you own, the characteristics of the
@@ -153,6 +153,12 @@ const waterfront_imgs = Array.from({ length: 10 }, (_, i) => i + 1);
 </template>
 
 <style scoped>
+.banner-image-text {
+    color: #212427;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
 .category-img {
     max-width: 140px;
     margin-bottom: 16px;
@@ -332,8 +338,10 @@ section {
 .demos {
     width: 372px;
 }
-.banner {
+.cabinet-banner {
     background-image: url("/images/403825338_1359148251375549_6698411373369828669_n.jpg");
+}
+.banner {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
@@ -348,17 +356,6 @@ section {
 }
 .dock-banner {
     background-image: url("/images/89601779_651624472262069_6726505813076082688_n.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: transparent;
-    background-position: center;
-    border: 1px solid #eee;
-    height: 320px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 }
 .marine-section {
     margin-top: 200px;
