@@ -18,11 +18,9 @@ defineProps({
             </div>
             <img alt="Maynard Construction & Marine" class="jermey-maynard" src="/images/jeremy_maynard.jpg" width="150" />
             <address>
-                Jeremy Maynard
+                <span>Jeremy Maynard</span>
                 <br />
-                <span>Custom & Refacing Cabinets / Marine Construction</span>
-                <br />
-                22710 Oak Meadow Dr. Foley, Al 36542
+                Custom & Refacing Cabinets / Marine Construction
             </address>
         </div>
     </div>
